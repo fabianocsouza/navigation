@@ -1,5 +1,6 @@
-import { Product } from "@/app/Product";
+import "react-native-gesture-handler";
+import { Routes } from "@/routes";
 
 export default function App() {
-  return <Product />;
+  return <Routes />;
 }
